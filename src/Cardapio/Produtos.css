@@ -1,0 +1,29 @@
+.opções{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.opções button {
+    width: 180px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    background: var(--fundo);
+    font-size: 18px;
+    cursor: pointer;
+}
+.opções button:hover{
+    background-color: var(--laranja);
+}
+.icone-combo{
+    display: flex;
+    align-items: center;
+}

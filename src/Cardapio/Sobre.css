@@ -1,0 +1,51 @@
+.sobre-img img{
+    width: 100%;
+    height: 300px;
+}
+.conteudo h1{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.conteudo span{
+    color: var(--laranja);
+}
+.conteudo p{
+    text-align: center;
+}
+.localização-info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: var(--laranja);
+    font-style: italic;
+    gap: 7px;
+    font-size: 18px;
+}
+.icone-loc{
+    font-size: 20px;
+}
+.localização p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.localização span{
+    display: flex;
+    justify-content: center;
+}
+.localização-container a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--laranja);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    gap: 7px;
+}
