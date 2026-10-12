@@ -142,7 +142,7 @@ function Cardapio({categoria, carrinho, setCarrinho, adicionarCarrinho, aumentar
                 </div>
                 <div className="dados">
                     <p>Tempo estimado de entrega</p>
-                    <span></span>
+                    <span>25 a 30 minutos</span>
                 </div>
             </div>
          </aside>

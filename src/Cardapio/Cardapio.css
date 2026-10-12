@@ -182,7 +182,7 @@
     gap: 10px;
 }
 .icone .svg{
-    height: 40px;
+    height: 60px;
     color: var(--laranja);
     margin-top: 20px;
 }
@@ -224,6 +224,14 @@
     background: none;
     font-weight: 600;
     width: 40px;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+.dados span{
+    color: var(--laranja);
+    text-align: center;
 }
 
 @media (max-width:768px){

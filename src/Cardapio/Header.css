@@ -72,7 +72,7 @@
     object-fit: cover;
     object-position: center;
 }
-/* Responsividade do banner */
+
 @media (max-width: 1200px) {
 
 
@@ -136,7 +136,7 @@
 
 }
 
-/* Ajustes para celulares menores */
+
 @media (max-width: 480px) {
 
 .Banner {

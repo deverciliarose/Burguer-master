@@ -133,8 +133,6 @@
 .pedido-info h3::first-letter {
   color: inherit;
 }
-
-/* Celulares */
 @media (max-width: 700px) {
   .pedidos {
     grid-template-columns: 1fr;

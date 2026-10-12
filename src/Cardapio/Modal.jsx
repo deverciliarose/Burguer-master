@@ -79,33 +79,29 @@ const enviarPedido = () => {
     .join("\n");
 
   const mensagem = `
-*NOVO PEDIDO*
+      *NOVO PEDIDO*
 
-*Cliente:*
+       *Cliente:*
 
-Nome: ${nome}
-Apelido: ${apelido}
+         Nome: ${nome}
+         Apelido: ${apelido}
 
-*Endereço:*
+        *Endereço:*
+        ${Endereço}
 
-${Endereço}
+        *Ponto de referência:*
+         ${Referência}
 
-*Ponto de referência:*
+        *Pedido:*
+        ${itensWhatsApp}
 
-${Referência}
+        *Pagamento:*
+        ${pagamento}
 
-*Pedido:*
-
-${itensWhatsApp}
-
-*Pagamento:*
-
-${pagamento}
-
-*Subtotal:* R$ ${subtotal.toFixed(2).replace(".", ",")}
-*Entrega:* R$ ${taxaEntrega.toFixed(2).replace(".", ",")}
-*Total:* R$ ${total.toFixed(2).replace(".", ",")}
-`;
+       *Subtotal:* R$ ${subtotal.toFixed(2).replace(".", ",")}
+       *Entrega:* R$ ${taxaEntrega.toFixed(2).replace(".", ",")}
+       *Total:* R$ ${total.toFixed(2).replace(".", ",")}
+       `;
 
   const numeroRestaurante = "5599984753745";
 
