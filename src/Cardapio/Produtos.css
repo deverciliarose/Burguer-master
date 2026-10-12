@@ -7,7 +7,9 @@
     padding: 0 20px;
 }
 .opções button {
-    width: 180px;
+    /*width: 180px;*/
+    flex: 1;
+    min-width: 0;
     height: 90px;
     display: flex;
     flex-direction: column;
@@ -26,4 +28,9 @@
 .icone-combo{
     display: flex;
     align-items: center;
+}
+@media(max-width:768px){
+    .opções button{
+        font-size: 12px;
+    }
 }
