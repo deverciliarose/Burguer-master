@@ -8,8 +8,10 @@ A proposta é oferecer um cardápio digital intuitivo, atrativo e responsivo, fa
 # Demonstração do projeto
 ## Desktop
 <img width="1828" height="958" alt="cardapio-desktop" src="https://github.com/user-attachments/assets/4626bf74-2496-4a3b-82c4-3f6e3ffda60a" />
+
 ## Tablet
 <img width="868" height="853" alt="cardapio-tablet" src="https://github.com/user-attachments/assets/b4dd17d3-d61f-44ad-ada7-f2e76ef7862b" />
+
 ## Mobile
 <img width="411" height="849" alt="cardapio-mobile" src="https://github.com/user-attachments/assets/85b5d123-5290-49b4-9688-d82399ccf2ed" />
 
