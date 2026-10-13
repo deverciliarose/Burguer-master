@@ -1,16 +1,30 @@
-# React + Vite
+# Burguer Master
+## Mais que um cardápio digital, uma experiência!
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+O Burguer Master é um projeto desenvolvido com o objetivo de modernizar e tornar mais prático o atendimento de restaurantes e lanchonetes que trabalham com delivery.
 
-Currently, two official plugins are available:
+A proposta é oferecer um cardápio digital intuitivo, atrativo e responsivo, facilitando a navegação dos clientes e tornando a realização de pedidos mais simples. Além disso, o projeto permite encaminhar os pedidos diretamente pelo WhatsApp, proporcionando mais agilidade no atendimento.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Demonstração do projeto
+## Desktop
+<img width="1828" height="958" alt="cardapio-desktop" src="https://github.com/user-attachments/assets/4626bf74-2496-4a3b-82c4-3f6e3ffda60a" />
+## Tablet
+<img width="868" height="853" alt="cardapio-tablet" src="https://github.com/user-attachments/assets/b4dd17d3-d61f-44ad-ada7-f2e76ef7862b" />
+## Mobile
+<img width="411" height="849" alt="cardapio-mobile" src="https://github.com/user-attachments/assets/85b5d123-5290-49b4-9688-d82399ccf2ed" />
 
-## React Compiler
+# Acessar Projto
+[Acessar projeto online]("https://burguer-master-nine.vercel.app")
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Ferramentas utilizadas
+. React.Js - construção da interface e dos componentes.
+. CSS3 - estilização e responsividade para diferentes tamanhos de tela.
+. Supabase Storage - Para aramazenamento das imagens dos produtos.
 
-## Expanding the Oxlint configuration
+## Melhorias futuras 
+. Implementar o acompanhamento do status do pedido.
+. Desenvolver um cronômetro para estimar o tempo de preparo após a confirmação do pedido.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Desenvolvido por
+Ercília Rose
+
