@@ -24,15 +24,21 @@ function Navbar(){
             </button>
             
             <div className={`categorias ${menuAberto ? "ativo" : ""}`}>
-                <button onClick={() => navigate("/")}>
+                <button onClick={() => { navigate("/");
+                    setMenuAberto(false);
+                }}>
                     <FiHome className="icone"/>
                     Início
                 </button>
-                <button onClick={() => navigate("/lista")}>
+                <button onClick={() => { navigate("/lista");
+                    setMenuAberto(false)
+                }}>
                     <FaBurger className="icone"/>
                     Cárdapio
                 </button>
-                <button onClick={() => navigate("/pedidos")}>
+                <button onClick={() => { navigate("/pedidos")
+                   setMenuAberto(false)
+                }}>
                     <FiShoppingCart className="icone"/>
                     Meu pedido
                 </button>
@@ -40,7 +46,8 @@ function Navbar(){
                 <a href="https://wa.me/5599984753745"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-contato">
+                className="btn-contato"
+                onClick={() => setMenuAberto(false)}>
                     <FaWhatsapp className="icone" />
                     Contato
                 </a>
@@ -55,7 +62,7 @@ function Navbar(){
                 <FiSmile className="icone" />
                     Sobre Nós
                 </button>
-                
+
             </div>
             <div className="btn-pedido">
                 <button onClick={() => navigate("/sobre")}>

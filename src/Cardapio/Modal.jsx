@@ -64,7 +64,7 @@ const enviarPedido = () => {
     total: total
   };
 
-  // SALVA NO HISTÓRICO
+ 
   salvarPedido(pedido);
 
   // ITENS PARA O WHATSAPP
@@ -109,7 +109,7 @@ const enviarPedido = () => {
     mensagem
   )}`;
 
-  // ABRE O WHATSAPP
+  
   window.location.href = url;
 };
 
