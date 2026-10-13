@@ -16,7 +16,7 @@ A proposta é oferecer um cardápio digital intuitivo, atrativo e responsivo, fa
 <img width="411" height="849" alt="cardapio-mobile" src="https://github.com/user-attachments/assets/85b5d123-5290-49b4-9688-d82399ccf2ed" />
 
 # Acessar Projto
-[Acessar projeto online]("https://burguer-master-nine.vercel.app")
+[**Acessar projeto online**](https://burguer-master-nine.vercel.app)
 
 ## Ferramentas utilizadas
 . React.Js - construção da interface e dos componentes.
