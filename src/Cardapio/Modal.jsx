@@ -5,10 +5,6 @@ import { useState } from "react";
 
 function Modal({modalAberto, fecharModal, carrinho, salvarPedido}){
 
-    if(!modalAberto){
-        return null
-    }
-
     const [nome, setNome] = useState("");
     const [apelido, setApelido] = useState("");
     const [Endereço, setEndereço] = useState("");
@@ -22,7 +18,22 @@ function Modal({modalAberto, fecharModal, carrinho, salvarPedido}){
         !pagamento
      ){}
 
+  if(!modalAberto){
+        return null
+    }
 
+const limparCampos = () =>{
+  setNome("");
+  setApelido("");
+  setEndereço("");
+  setReferência("");
+  setPagamento("");
+}
+
+const fecharModalELimpar = () => {
+    limparCampos();
+    fecharModal();
+};
     
 const enviarPedido = () => {
   const itens = carrinho.map((produto) => {
@@ -109,16 +120,19 @@ const enviarPedido = () => {
     mensagem
   )}`;
 
-  
+  limparCampos();
+  fecharModal();
+
   window.location.href = url;
 };
+
 
     return(
         <>
          <div className="modal">
             <div className="modal-pedido">
                
-               <button className="btn-fechar" onClick={fecharModal}>
+               <button className="btn-fechar" onClick={fecharModalELimpar}>
                   <FiX className="icone" />
                </button>
 
