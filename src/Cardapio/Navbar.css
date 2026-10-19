@@ -131,3 +131,11 @@
     display: flex;
 }
 }
+/* Modo escuro */
+
+@media(prefers-color-scheme: dark){
+    .navbar{
+        background-color: black;
+        color: #FFF;
+    }
+}

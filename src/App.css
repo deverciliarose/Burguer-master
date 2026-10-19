@@ -15,3 +15,6 @@
   --Texto-principal: #281F1A;
   --Texto-secundario: #645A50;
 }
+body.dark Navbar{
+    background-color: #222;
+}
