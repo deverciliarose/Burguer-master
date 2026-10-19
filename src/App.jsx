@@ -9,7 +9,7 @@ import Lista from "./Cardapio/Lista";
 import Modal from "./Cardapio/Modal";
 import Sobre from "./Cardapio/Sobre";
 import './App.css';
-import "./TemaClaro.css";
+import "./Cardapio/TemaClaro.css";
 
 function App() {
   const [categoria, setCategoria] = useState("Hambúrgueres");
