@@ -49,7 +49,6 @@
 /* Modo noturno */
 @media(prefers-color-scheme: dark){
     .opções button{
-        background-color: var(--Texto-secundario);
-        color: var(--fundo);
+        background: transparent;
     }
 }
