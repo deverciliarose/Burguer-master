@@ -8,7 +8,8 @@ import {Routes, Route} from "react-router-dom";
 import Lista from "./Cardapio/Lista";
 import Modal from "./Cardapio/Modal";
 import Sobre from "./Cardapio/Sobre";
-import './App.css'
+import './App.css';
+import "./TemaClaro.css";
 
 function App() {
   const [categoria, setCategoria] = useState("Hambúrgueres");
@@ -126,6 +127,7 @@ const excluirPedido = (id) => {
 
   return (
     <>
+    <div className="app-cardapio">
     <Navbar />
 
     <Routes>
@@ -174,7 +176,7 @@ const excluirPedido = (id) => {
             salvarPedido={salvarPedido}
     />
 
-
+   </div>
   </>
 );
 }

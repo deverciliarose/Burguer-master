@@ -1,0 +1,14 @@
+
+
+.app-cardapio {
+    color-scheme: light;
+}
+.app-cardapio {
+    --laranja: #F7AD26;
+    --laranja-claro: #F5D5B2;
+    --creme: #F5EEE0;
+    --fundo: #FBFBF8;
+    --Bege-claro: #F8F3E9;
+    --Texto-principal: #281F1A;
+    --Texto-secundario: #645A50;
+}
