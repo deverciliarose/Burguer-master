@@ -31,8 +31,8 @@
 /* Modo noturno */
 @media(prefers-color-scheme: dark){
     .opções button{
-        background: transparent;
-        border: 1px solid red;
+        background: transparent !important;
+        border: 1px solid red !important;
     }
 }
 @media(max-width:768px){
