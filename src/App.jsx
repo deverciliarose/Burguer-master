@@ -13,6 +13,17 @@ import './App.css';
 
 function App() {
   const [categoria, setCategoria] = useState("Hambúrgueres");
+  const [modoEscuro, setModoEscuro] = useState(() => {
+        return localStorage.getItem("tema") === "escuro";
+    });
+   useEffect(() => {
+        document.body.classList.toggle("dark", modoEscuro);
+
+        localStorage.setItem(
+            "tema",
+            modoEscuro ? "escuro" : "claro"
+        );
+    }, [modoEscuro]);
 
   // carrinho
   const [carrinho, setCarrinho] = useState(() =>{
@@ -128,7 +139,7 @@ const excluirPedido = (id) => {
   return (
     <>
 
-    <Navbar />
+    <Navbar/>
 
     <Routes>
 
